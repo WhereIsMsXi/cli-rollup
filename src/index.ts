@@ -1,3 +1,3 @@
-export function print(value: any) {
+export function print() {
   return 'cli-rollup'
 }
