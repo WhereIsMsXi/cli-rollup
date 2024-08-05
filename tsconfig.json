@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"baseUrl": ".",
+		"paths": {
+			"#/*": ["*"],
+			"@/*": ["src/*"]
+		},
+		"declaration": true,
+		"declarationDir": "dist",
+		"sourceMap": true,
+		"strict": true,
+		"typeRoots": [
+			"node_modules/@types",
+			"typings"
+		],
+	},
+	"exclude": [
+		"dist",
+		"node_modules",
+		"rollup.config.js",
+	]
+}
